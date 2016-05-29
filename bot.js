@@ -43,7 +43,7 @@ function latest_tweet(err, data, response) {
 			var splitted = split(data.statuses[status].text);
 			var question = ""
 			for (var i in splitted) { //making sure to strip out hashtags
-				console.log('split: ' + splitted[i]);
+				//console.log('split: ' + splitted[i]);
 				if(splitted[i][0] == '#'){ 
 
 				}else
