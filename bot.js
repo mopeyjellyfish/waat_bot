@@ -4,14 +4,14 @@ var TWITTER_CONSUMER_SECRET = '';
 var TWITTER_ACCESS_TOKEN = '';
 var TWITTER_ACCESS_TOKEN_SECRET = '';
 
-var WOLFRAM-TOKEN = ""; /* Configure the wolfram API */
+var WOLFRAM_TOKEN = ""; /* Configure the wolfram API */
 
 
 var TWITTER_SEARCH_PHRASE = '#waatbot'; /* Set Twitter search phrase */
 
 var INTERVAL = 30*60*1000; /*30 minutes (in microsecondes)*/
 
-var wolfram = require('wolfram-alpha').createClient(WOLFRAM-TOKEN);
+var wolfram = require('wolfram-alpha').createClient(WOLFRAM_TOKEN);
 var split = require('split-string-words');
 var Twit = require('twit');
 
